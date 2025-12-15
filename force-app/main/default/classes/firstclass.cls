@@ -5,7 +5,7 @@ public static void contactmethod()
     contact con = new contact();
     con.Firstname = 'Teju';
     con.LastName = 'Nandigama';
-    con.MobilePhone = '7842852036';
+    con.MobilePhone = '7842852037';
     insert con;
     system.debug(con);
 }
