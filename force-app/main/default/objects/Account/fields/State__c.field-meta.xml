@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State__c</fullName>
+    <label>State</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Country__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>California</fullName>
+                <default>false</default>
+                <label>California</label>
+            </value>
+            <value>
+                <fullName>Texas</fullName>
+                <default>false</default>
+                <label>Texas</label>
+            </value>
+            <value>
+                <fullName>New York</fullName>
+                <default>false</default>
+                <label>New York</label>
+            </value>
+            <value>
+                <fullName>Florida</fullName>
+                <default>false</default>
+                <label>Florida</label>
+            </value>
+            <value>
+                <fullName>Illinois</fullName>
+                <default>false</default>
+                <label>Illinois</label>
+            </value>
+            <value>
+                <fullName>Ontario</fullName>
+                <default>false</default>
+                <label>Ontario</label>
+            </value>
+            <value>
+                <fullName>Quebec</fullName>
+                <default>false</default>
+                <label>Quebec</label>
+            </value>
+            <value>
+                <fullName>British Columbia</fullName>
+                <default>false</default>
+                <label>British Columbia</label>
+            </value>
+            <value>
+                <fullName>Alberta</fullName>
+                <default>false</default>
+                <label>Alberta</label>
+            </value>
+            <value>
+                <fullName>Manitoba</fullName>
+                <default>false</default>
+                <label>Manitoba</label>
+            </value>
+            <value>
+                <fullName>England</fullName>
+                <default>false</default>
+                <label>England</label>
+            </value>
+            <value>
+                <fullName>Scotland</fullName>
+                <default>false</default>
+                <label>Scotland</label>
+            </value>
+            <value>
+                <fullName>Wales</fullName>
+                <default>false</default>
+                <label>Wales</label>
+            </value>
+            <value>
+                <fullName>Northern Ireland</fullName>
+                <default>false</default>
+                <label>Northern Ireland</label>
+            </value>
+            <value>
+                <fullName>Bavaria</fullName>
+                <default>false</default>
+                <label>Bavaria</label>
+            </value>
+            <value>
+                <fullName>Berlin</fullName>
+                <default>false</default>
+                <label>Berlin</label>
+            </value>
+            <value>
+                <fullName>Hesse</fullName>
+                <default>false</default>
+                <label>Hesse</label>
+            </value>
+            <value>
+                <fullName>Saxony</fullName>
+                <default>false</default>
+                <label>Saxony</label>
+            </value>
+            <value>
+                <fullName>Baden-Württemberg</fullName>
+                <default>false</default>
+                <label>Baden-Württemberg</label>
+            </value>
+            <value>
+                <fullName>Île-de-France</fullName>
+                <default>false</default>
+                <label>Île-de-France</label>
+            </value>
+            <value>
+                <fullName>Provence-Alpes-Côte d&apos;Azur</fullName>
+                <default>false</default>
+                <label>Provence-Alpes-Côte d&apos;Azur</label>
+            </value>
+            <value>
+                <fullName>Auvergne-Rhône-Alpes</fullName>
+                <default>false</default>
+                <label>Auvergne-Rhône-Alpes</label>
+            </value>
+            <value>
+                <fullName>Nouvelle-Aquitaine</fullName>
+                <default>false</default>
+                <label>Nouvelle-Aquitaine</label>
+            </value>
+            <value>
+                <fullName>Occitanie</fullName>
+                <default>false</default>
+                <label>Occitanie</label>
+            </value>
+            <value>
+                <fullName>Maharashtra</fullName>
+                <default>false</default>
+                <label>Maharashtra</label>
+            </value>
+            <value>
+                <fullName>Karnataka</fullName>
+                <default>false</default>
+                <label>Karnataka</label>
+            </value>
+            <value>
+                <fullName>Tamil Nadu</fullName>
+                <default>false</default>
+                <label>Tamil Nadu</label>
+            </value>
+            <value>
+                <fullName>Uttar Pradesh</fullName>
+                <default>false</default>
+                <label>Uttar Pradesh</label>
+            </value>
+            <value>
+                <fullName>Delhi</fullName>
+                <default>false</default>
+                <label>Delhi</label>
+            </value>
+            <value>
+                <fullName>Guangdong</fullName>
+                <default>false</default>
+                <label>Guangdong</label>
+            </value>
+            <value>
+                <fullName>Beijing</fullName>
+                <default>false</default>
+                <label>Beijing</label>
+            </value>
+            <value>
+                <fullName>Shanghai</fullName>
+                <default>false</default>
+                <label>Shanghai</label>
+            </value>
+            <value>
+                <fullName>Sichuan</fullName>
+                <default>false</default>
+                <label>Sichuan</label>
+            </value>
+            <value>
+                <fullName>Zhejiang</fullName>
+                <default>false</default>
+                <label>Zhejiang</label>
+            </value>
+            <value>
+                <fullName>Tokyo</fullName>
+                <default>false</default>
+                <label>Tokyo</label>
+            </value>
+            <value>
+                <fullName>Osaka</fullName>
+                <default>false</default>
+                <label>Osaka</label>
+            </value>
+            <value>
+                <fullName>Kyoto</fullName>
+                <default>false</default>
+                <label>Kyoto</label>
+            </value>
+            <value>
+                <fullName>Hokkaido</fullName>
+                <default>false</default>
+                <label>Hokkaido</label>
+            </value>
+            <value>
+                <fullName>Fukuoka</fullName>
+                <default>false</default>
+                <label>Fukuoka</label>
+            </value>
+            <value>
+                <fullName>New South Wales</fullName>
+                <default>false</default>
+                <label>New South Wales</label>
+            </value>
+            <value>
+                <fullName>Victoria</fullName>
+                <default>false</default>
+                <label>Victoria</label>
+            </value>
+            <value>
+                <fullName>Queensland</fullName>
+                <default>false</default>
+                <label>Queensland</label>
+            </value>
+            <value>
+                <fullName>Western Australia</fullName>
+                <default>false</default>
+                <label>Western Australia</label>
+            </value>
+            <value>
+                <fullName>South Australia</fullName>
+                <default>false</default>
+                <label>South Australia</label>
+            </value>
+            <value>
+                <fullName>São Paulo</fullName>
+                <default>false</default>
+                <label>São Paulo</label>
+            </value>
+            <value>
+                <fullName>Rio de Janeiro</fullName>
+                <default>false</default>
+                <label>Rio de Janeiro</label>
+            </value>
+            <value>
+                <fullName>Minas Gerais</fullName>
+                <default>false</default>
+                <label>Minas Gerais</label>
+            </value>
+            <value>
+                <fullName>Bahia</fullName>
+                <default>false</default>
+                <label>Bahia</label>
+            </value>
+            <value>
+                <fullName>Paraná</fullName>
+                <default>false</default>
+                <label>Paraná</label>
+            </value>
+            <value>
+                <fullName>Mexico City</fullName>
+                <default>false</default>
+                <label>Mexico City</label>
+            </value>
+            <value>
+                <fullName>Jalisco</fullName>
+                <default>false</default>
+                <label>Jalisco</label>
+            </value>
+            <value>
+                <fullName>Nuevo León</fullName>
+                <default>false</default>
+                <label>Nuevo León</label>
+            </value>
+            <value>
+                <fullName>Puebla</fullName>
+                <default>false</default>
+                <label>Puebla</label>
+            </value>
+            <value>
+                <fullName>Yucatán</fullName>
+                <default>false</default>
+                <label>Yucatán</label>
+            </value>
+            <value>
+                <fullName>Gauteng</fullName>
+                <default>false</default>
+                <label>Gauteng</label>
+            </value>
+            <value>
+                <fullName>Western Cape</fullName>
+                <default>false</default>
+                <label>Western Cape</label>
+            </value>
+            <value>
+                <fullName>KwaZulu-Natal</fullName>
+                <default>false</default>
+                <label>KwaZulu-Natal</label>
+            </value>
+            <value>
+                <fullName>Eastern Cape</fullName>
+                <default>false</default>
+                <label>Eastern Cape</label>
+            </value>
+            <value>
+                <fullName>Limpopo</fullName>
+                <default>false</default>
+                <label>Limpopo</label>
+            </value>
+            <value>
+                <fullName>Dubai</fullName>
+                <default>false</default>
+                <label>Dubai</label>
+            </value>
+            <value>
+                <fullName>Abu Dhabi</fullName>
+                <default>false</default>
+                <label>Abu Dhabi</label>
+            </value>
+            <value>
+                <fullName>Sharjah</fullName>
+                <default>false</default>
+                <label>Sharjah</label>
+            </value>
+            <value>
+                <fullName>Ajman</fullName>
+                <default>false</default>
+                <label>Ajman</label>
+            </value>
+            <value>
+                <fullName>Ras Al Khaimah</fullName>
+                <default>false</default>
+                <label>Ras Al Khaimah</label>
+            </value>
+            <value>
+                <fullName>Central</fullName>
+                <default>false</default>
+                <label>Central</label>
+            </value>
+            <value>
+                <fullName>East</fullName>
+                <default>false</default>
+                <label>East</label>
+            </value>
+            <value>
+                <fullName>North</fullName>
+                <default>false</default>
+                <label>North</label>
+            </value>
+            <value>
+                <fullName>North-East</fullName>
+                <default>false</default>
+                <label>North-East</label>
+            </value>
+            <value>
+                <fullName>West</fullName>
+                <default>false</default>
+                <label>West</label>
+            </value>
+            <value>
+                <fullName>North Holland</fullName>
+                <default>false</default>
+                <label>North Holland</label>
+            </value>
+            <value>
+                <fullName>South Holland</fullName>
+                <default>false</default>
+                <label>South Holland</label>
+            </value>
+            <value>
+                <fullName>Utrecht</fullName>
+                <default>false</default>
+                <label>Utrecht</label>
+            </value>
+            <value>
+                <fullName>Gelderland</fullName>
+                <default>false</default>
+                <label>Gelderland</label>
+            </value>
+            <value>
+                <fullName>North Brabant</fullName>
+                <default>false</default>
+                <label>North Brabant</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <valueName>Mexico City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <valueName>Jalisco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <valueName>Nuevo León</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <valueName>Puebla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <valueName>Yucatán</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>South Africa</controllingFieldValue>
+            <valueName>Gauteng</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>South Africa</controllingFieldValue>
+            <valueName>Western Cape</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>South Africa</controllingFieldValue>
+            <valueName>KwaZulu-Natal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>South Africa</controllingFieldValue>
+            <valueName>Eastern Cape</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>South Africa</controllingFieldValue>
+            <valueName>Limpopo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Arab Emirates</controllingFieldValue>
+            <valueName>Dubai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Arab Emirates</controllingFieldValue>
+            <valueName>Abu Dhabi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Arab Emirates</controllingFieldValue>
+            <valueName>Sharjah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Arab Emirates</controllingFieldValue>
+            <valueName>Ajman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Arab Emirates</controllingFieldValue>
+            <valueName>Ras Al Khaimah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Singapore</controllingFieldValue>
+            <valueName>Central</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Singapore</controllingFieldValue>
+            <valueName>East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Singapore</controllingFieldValue>
+            <valueName>North</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Singapore</controllingFieldValue>
+            <valueName>North-East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Singapore</controllingFieldValue>
+            <valueName>West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>North Holland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>South Holland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Utrecht</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Gelderland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>North Brabant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>Texas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>New York</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>Florida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <valueName>Illinois</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Ontario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Quebec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>British Columbia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Alberta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <valueName>Manitoba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>England</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Scotland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Wales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Northern Ireland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Bavaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Berlin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Hesse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Saxony</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Baden-Württemberg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Île-de-France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Provence-Alpes-Côte d&apos;Azur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Auvergne-Rhône-Alpes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Nouvelle-Aquitaine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Occitanie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Maharashtra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Karnataka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Tamil Nadu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Uttar Pradesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>Delhi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Guangdong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Beijing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Shanghai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Sichuan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>Zhejiang</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Japan</controllingFieldValue>
+            <valueName>Tokyo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Japan</controllingFieldValue>
+            <valueName>Osaka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Japan</controllingFieldValue>
+            <valueName>Kyoto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Japan</controllingFieldValue>
+            <valueName>Hokkaido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Japan</controllingFieldValue>
+            <valueName>Fukuoka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>New South Wales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Victoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Queensland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>Western Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Australia</controllingFieldValue>
+            <valueName>South Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brazil</controllingFieldValue>
+            <valueName>São Paulo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brazil</controllingFieldValue>
+            <valueName>Rio de Janeiro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brazil</controllingFieldValue>
+            <valueName>Minas Gerais</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brazil</controllingFieldValue>
+            <valueName>Bahia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Brazil</controllingFieldValue>
+            <valueName>Paraná</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
