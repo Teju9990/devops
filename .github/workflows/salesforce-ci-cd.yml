@@ -26,13 +26,11 @@ jobs:
         run: |
           python scripts/python/metadata_inventory.py
 
-      - name: Install Salesforce Code Analyzer
-        run: |
-          sf plugins install @salesforce/sfdx-scanner
-
-      - name: Run Code Analyzer
-        run: |
-          sf scanner run --target force-app --format table
+      - name: Run Salesforce Code Analyzer
+        uses: salesforce/code-analyzer-action@v2
+        with:
+            run: |
+                sf code-analyzer run --target force-app --format table
 
       - name: Run Apex Tests
         run: |
