@@ -10,42 +10,56 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+     
       - name: Install Salesforce CLI
         run: |
           npm install -g @salesforce/cli
           sf --version
 
+     
       - name: Authenticate to Salesforce
         run: |
           echo "${{ secrets.SFDX_AUTH_URL }}" > auth.txt
           sf org login sfdx-url -f auth.txt -a DevOpsPractice
 
-      - name: Run Python Metadata Scripts
+      
+      - name: Metadata Inventory
         run: |
           python scripts/python/metadata_inventory.py
-          python scripts/python/list_files.py
 
-      - name: Run Static Code Analysis
+     
+      - name: Install Salesforce Code Analyzer
+        run: |
+          sf plugins install @salesforce/sfdx-scanner
+
+     
+      - name: Run Code Analyzer
         run: |
           sf scanner run --target force-app --format table
 
+     
       - name: Run Apex Tests
         run: |
           sf apex test run --test-level RunLocalTests --wait 30
 
+      
       - name: Validate Deployment
         run: |
           sf project deploy start --dry-run --target-org DevOpsPractice
 
-      - name: Deploy Metadata
+     
+      - name: Deploy to Salesforce
         run: |
           sf project deploy start --target-org DevOpsPractice
 
+      
       - name: Export Org Data
         run: |
           sf data query \
             --query "SELECT Id, Name FROM Account LIMIT 10" \
+            --target-org DevOpsPractice \
             --result-format csv > accounts.csv
