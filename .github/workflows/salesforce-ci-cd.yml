@@ -26,6 +26,11 @@ jobs:
         run: |
           python scripts/python/metadata_inventory.py
 
+      - name: Validate Salesforce JSON & XML Metadata
+        run: |
+          python scripts/python/validation/validate_json.py
+          python scripts/python/validation/validate_xml.py
+
       - name: Install Latest Salesforce Code Analyzer CLI Plugin
         run: |
           sf plugins install code-analyzer@latest
