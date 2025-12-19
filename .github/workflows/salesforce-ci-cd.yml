@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Python Metadata Scripts
         run: |
-          python scripts/python/metadata_setup.py
+          python scripts/python/metadata_inventory.py
           python scripts/python/list_files.py
 
       - name: Run Static Code Analysis
