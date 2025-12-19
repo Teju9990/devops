@@ -26,13 +26,26 @@ jobs:
         run: |
           python scripts/python/metadata_inventory.py
 
-      - name: Install Salesforce Code Analyzer
+      - name: Install Latest Salesforce Code Analyzer CLI Plugin
         run: |
-          sf plugins install code-analyzer
+          sf plugins install code-analyzer@latest
 
-      - name: Run salesforce code analyzer
-        run: |
-          sf code-analyzer run --target force-app --format table
+      - name: Run Salesforce Code Analyzer
+        id: run-code-analyzer
+        uses: forcedotcom/run-code-analyzer@v2
+        with:
+          run-arguments: >
+            --workspace .
+            --view detail
+            --output-file sfca_results.json
+          github-token: ${{ github.token }}
+
+      - name: Fail on Critical/High Violations (All Files)
+        if: |
+          steps.run-code-analyzer.outputs.exit-code > 0 ||
+          steps.run-code-analyzer.outputs.num-sev1-violations > 0 ||
+          steps.run-code-analyzer.outputs.num-sev2-violations > 0
+        run: exit 1
 
       - name: Run Apex Tests
         run: |
