@@ -28,11 +28,11 @@ jobs:
 
       - name: Install Salesforce Code Analyzer
         run: |
-          sf plugins install @salesforce/sfdx-scanner
-          
+          sf plugins install code-analyzer
+
       - name: Run salesforce code analyzer
         run: |
-          sf scanner run --target force-app --format table
+          sf code-analyzer run --target force-app --format table
 
       - name: Run Apex Tests
         run: |
