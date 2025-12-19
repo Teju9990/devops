@@ -1,0 +1,216 @@
+<testsuites>
+<testsuite name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls" tests="15" errors="15">
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 1 Apex classes should declare a sharing model if DML or SOQL/SOSL is used" type="3">
+3: Apex classes should declare a sharing model if DML or SOQL/SOSL is used
+Category: Security - ApexSharingViolations
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 1
+Column: 1
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_security.html#apexsharingviolations
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 1
+Column: 8
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 1 The class name &#39;firstclass&#39; doesn&#39;t match &#39;[A-Z][a-zA-Z0-9_]*&#39;" type="1">
+1: The class name &#39;firstclass&#39; doesn&#39;t match &#39;[A-Z][a-zA-Z0-9_]*&#39;
+Category: Code Style - ClassNamingConventions
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 1
+Column: 8
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_codestyle.html#classnamingconventions
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 3 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 3
+Column: 15
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 9 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 9
+Column: 5
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 10 Avoid debug statements since they impact on performance" type="3">
+3: Avoid debug statements since they impact on performance
+Category: Performance - AvoidDebugStatements
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 10
+Column: 5
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_performance.html#avoiddebugstatements
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 10 Calls to System.debug should specify a logging level." type="3">
+3: Calls to System.debug should specify a logging level.
+Category: Best Practices - DebugsShouldUseLoggingLevel
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 10
+Column: 5
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_bestpractices.html#debugsshoulduselogginglevel
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 12 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 12
+Column: 12
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 17 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 17
+Column: 9
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 18 Avoid debug statements since they impact on performance" type="3">
+3: Avoid debug statements since they impact on performance
+Category: Performance - AvoidDebugStatements
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 18
+Column: 9
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_performance.html#avoiddebugstatements
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 18 Calls to System.debug should specify a logging level." type="3">
+3: Calls to System.debug should specify a logging level.
+Category: Best Practices - DebugsShouldUseLoggingLevel
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 18
+Column: 9
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_bestpractices.html#debugsshoulduselogginglevel
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 20 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 20
+Column: 16
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 26 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 26
+Column: 9
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 27 Avoid debug statements since they impact on performance" type="3">
+3: Avoid debug statements since they impact on performance
+Category: Performance - AvoidDebugStatements
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 27
+Column: 9
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_performance.html#avoiddebugstatements
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls: 27 Calls to System.debug should specify a logging level." type="3">
+3: Calls to System.debug should specify a logging level.
+Category: Best Practices - DebugsShouldUseLoggingLevel
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\firstclass.cls
+Line: 27
+Column: 9
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_bestpractices.html#debugsshoulduselogginglevel
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls" tests="6" errors="6">
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls: 1 Apex classes should declare a sharing model if DML or SOQL/SOSL is used" type="3">
+3: Apex classes should declare a sharing model if DML or SOQL/SOSL is used
+Category: Security - ApexSharingViolations
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls
+Line: 1
+Column: 1
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_security.html#apexsharingviolations
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls: 1 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls
+Line: 1
+Column: 8
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls: 1 The class name &#39;practice&#39; doesn&#39;t match &#39;[A-Z][a-zA-Z0-9_]*&#39;" type="1">
+1: The class name &#39;practice&#39; doesn&#39;t match &#39;[A-Z][a-zA-Z0-9_]*&#39;
+Category: Code Style - ClassNamingConventions
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls
+Line: 1
+Column: 8
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_codestyle.html#classnamingconventions
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls: 3 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls
+Line: 3
+Column: 19
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls: 8 Missing ApexDoc comment" type="3">
+3: Missing ApexDoc comment
+Category: Documentation - ApexDoc
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls
+Line: 8
+Column: 19
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_documentation.html#apexdoc
+</failure>
+</testcase>
+<testcase name="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls">
+<failure message="C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls: 12 Validate CRUD permission before SOQL/DML operation or enforce user mode" type="3">
+3: Validate CRUD permission before SOQL/DML operation or enforce user mode
+Category: Security - ApexCRUDViolation
+File: C:\Users\tejasri.nandigama\OneDrive - Accenture\Desktop\devops\force-app\main\default\classes\practice.cls
+Line: 12
+Column: 9
+URL: https://docs.pmd-code.org/pmd-doc-7.11.0/pmd_rules_apex_security.html#apexcrudviolation
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

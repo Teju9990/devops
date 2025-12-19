@@ -1,0 +1,49 @@
+name: Salesforce CI/CD Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  salesforce-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Salesforce CLI
+        uses: forcedotcom/cli-actions/setup-sfdx@v1
+
+      - name: Authenticate to Salesforce
+        run: |
+          echo "${{ secrets.SFDX_AUTH_URL }}" > auth.txt
+          sf org login sfdx-url -f auth.txt -a DevOpsPractice
+
+      - name: Run Python Metadata Scripts
+        run: |
+          python scripts/python/metadata_setup.py
+          python scripts/python/list_files.py
+
+      - name: Run Static Code Analysis
+        run: |
+          sf scanner run --target force-app --format table
+
+      - name: Run Apex Tests
+        run: |
+          sf apex test run --test-level RunLocalTests --wait 30
+
+      - name: Validate Deployment
+        run: |
+          sf project deploy start --dry-run --target-org DevOpsPractice
+
+      - name: Deploy Metadata
+        run: |
+          sf project deploy start --target-org DevOpsPractice
+
+      - name: Export Org Data
+        run: |
+          sf data query \
+            --query "SELECT Id, Name FROM Account LIMIT 10" \
+            --result-format csv > accounts.csv
